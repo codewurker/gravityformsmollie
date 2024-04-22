@@ -1,0 +1,36 @@
+### 1.5.0 | 2023-11-29
+- Added support for the Gravity Forms 2.8 form editor compact view.
+- Updated the theme framework variables to be compatible with Gravity Forms 2.8.
+
+### 1.4.0 | 2023-10-18
+- Fixed an issue where the Mollie vendor script is enqueued where it is not needed.
+- Fixed an issue where the settings page displays a deprecation notice on sites running PHP 8.1.
+- Fixed an issue where delayed payment feeds aren't triggered on the thank you page when testing locally.
+- Fixed an issue where the Credit Card field is not initialized on multi page forms when running in Conversational Forms mode.
+- Fixed an issue where the Credit Card field does not get the correct styles in Conversational Forms mode.
+- Fixed an issue where the API is initialized on all pages.
+
+### 1.3 | 2023-01-25
+- Added support for the Theme Framework.
+- Added Gravity Forms license key to OAuth process.
+- Updated the editor icon.
+- Updated the error message to be more descriptive when the add-on fails to retrieve payment methods.
+- Updated Mollie field settings to remove the deprecated credit card style setting.
+- Fixed an issue where bank transfer orders fail to be created because of the presence of an unsupported parameter.
+- Fixed an issue where payment methods aren't updated once cached.
+
+### 1.2 | 2021-09-01
+- Fixed an issue that slows down the page load speed when the Mollie add-on is active.
+- Fixed an issue where payment delayed feeds don't fire correctly if the window is closed before the thank you page renders.
+- Fixed an issue where a warning appears on the form editor when the add-on fails to communicate with the mollie API.
+- Fixed an issue when a PHP notice displays if an RTL language is used.
+
+
+### 1.1 | 2020-09-16
+- Added support for Gravity Forms 2.5.
+- Added accessibility enhancements that announcing the credit card validation error in Mollie Components for screen readers.
+- Added accessibility enhancements that announcing the supported credit cards.
+- Fixed an issue that PHP notices were thrown if the Mollie feed didn't have billing fields mapped.
+
+### 1.0 | 2020-05-06
+- It's all new!

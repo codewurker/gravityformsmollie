@@ -1,0 +1,291 @@
+# Copyright (C) 2023 Gravity Forms
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Mollie Add-On 1.5.0\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-29T15:08:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: gravityformsmollie\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms Mollie Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with Mollie, enabling end users to purchase goods and services through Gravity Forms."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Forms"
+msgstr ""
+
+#: class-gf-mollie.php:553
+msgid "Your credit card payment can not be processed right now"
+msgstr ""
+
+#. translators: Confirmation question displayed when user clicks button to disconnect Mollie
+#: class-gf-mollie.php:569
+msgid "Are you sure you want to disconnect Mollie?"
+msgstr ""
+
+#: class-gf-mollie.php:584
+#: includes/class-gf-field-mollie.php:194
+#: includes/class-gf-field-mollie.php:208
+msgid "Payment Method"
+msgstr ""
+
+#. translators: The GF field name
+#: class-gf-mollie.php:586
+msgid "Only one %s field can be added to the form"
+msgstr ""
+
+#: class-gf-mollie.php:708
+msgid "Unable to authenticate with Mollie."
+msgstr ""
+
+#: class-gf-mollie.php:736
+msgid "Authentication with Mollie was not successful."
+msgstr ""
+
+#: class-gf-mollie.php:783
+msgid "Mollie Account"
+msgstr ""
+
+#. translators: General description of Mollie
+#: class-gf-mollie.php:788
+msgid "Mollie helps businesses of all sizes to sell and build more efficiently with a solid but easy-to-use payment solution. Start growing your business today with effortless payments. If you don't have a Mollie account, you can %1$ssign up for one here.%2$s"
+msgstr ""
+
+#: class-gf-mollie.php:813
+msgid "Mode"
+msgstr ""
+
+#: class-gf-mollie.php:819
+msgid "Test mode"
+msgstr ""
+
+#: class-gf-mollie.php:820
+msgid "Use this setting to test your connection to Mollie. Pending payment methods in your profile are available in test mode."
+msgstr ""
+
+#: class-gf-mollie.php:838
+#: class-gf-mollie.php:843
+msgid "Website Profile"
+msgstr ""
+
+#: class-gf-mollie.php:844
+msgid "Select your Website profile."
+msgstr ""
+
+#: class-gf-mollie.php:862
+msgid "Select a Profile"
+msgstr ""
+
+#: class-gf-mollie.php:906
+msgid "Live"
+msgstr ""
+
+#: class-gf-mollie.php:910
+msgid "Test"
+msgstr ""
+
+#: class-gf-mollie.php:936
+msgid "SSL Certificate Required"
+msgstr ""
+
+#: class-gf-mollie.php:938
+msgid "Make sure you have an SSL certificate installed and enabled, then %1$sclick here to continue%2$s."
+msgstr ""
+
+#: class-gf-mollie.php:984
+msgid "Click here to connect to Mollie"
+msgstr ""
+
+#. translators: text on button to disconnect Mollie account
+#: class-gf-mollie.php:1001
+msgid "Disconnect"
+msgstr ""
+
+#: class-gf-mollie.php:1057
+msgid "Unable to check your profile setting, Mollie is unreachable."
+msgstr ""
+
+#. translators: %s is the error code in the wp_error object
+#: class-gf-mollie.php:1069
+msgid "Unable to get payment methods. Error Code: %s"
+msgstr ""
+
+#: class-gf-mollie.php:1072
+msgid "This profile has no active payment methods. Please add at least one method in your Mollie account."
+msgstr ""
+
+#: class-gf-mollie.php:1119
+msgid "First Name"
+msgstr ""
+
+#: class-gf-mollie.php:1125
+msgid "Last Name"
+msgstr ""
+
+#. translators: 1: Open h6 tag 2: Close h6 tag 3: Open p tag 4: Close p tag 5: Open link tag 6: Close link tag
+#: class-gf-mollie.php:1132
+msgid "%1$sBilling Information%2$s%3$sMap your Form Fields to the available listed fields.%4$s%3$sMapping the billing information here could send the customer data to your Mollie account, and make Credit Card payments PSD2 and SCA compliant. %5$sLearn more here%6$s.%4$s"
+msgstr ""
+
+#: class-gf-mollie.php:1192
+msgid "You must add a Mollie field to your form before creating a feed. Let's go %sadd one%s!"
+msgstr ""
+
+#: class-gf-mollie.php:1231
+msgid "Payment Completed"
+msgstr ""
+
+#: class-gf-mollie.php:1232
+msgid "Payment Refunded"
+msgstr ""
+
+#: class-gf-mollie.php:1233
+msgid "Payment Failed"
+msgstr ""
+
+#: class-gf-mollie.php:1284
+msgid "Unable to create payment because API is not initialized."
+msgstr ""
+
+#. translators: Error message shown when Add-On cannot connect to Mollie.
+#: class-gf-mollie.php:1505
+msgid "Connection to Mollie cannot be initialized."
+msgstr ""
+
+#. translators: Error message shown when information about the undergoing payment cannot be read from Mollie.
+#: class-gf-mollie.php:1524
+msgid "The status of your payment cannot be read."
+msgstr ""
+
+#. translators: Error message, information about the payment cannot be updated in Mollie.
+#: class-gf-mollie.php:1550
+msgid "The status of your payment cannot be updated."
+msgstr ""
+
+#. translators: Error message, information about the order cannot be updated in Mollie.
+#: class-gf-mollie.php:1569
+msgid "The status of your order cannot be updated."
+msgstr ""
+
+#. translators: error in webhook data
+#: class-gf-mollie.php:1807
+msgid "Payment not found"
+msgstr ""
+
+#: class-gf-mollie.php:1944
+msgid "Payment has been partially refunded. The total amount refunded so far: %s. Transaction Id: %s."
+msgstr ""
+
+#. translators: Description of order, displayed in your Mollie dashboard and in confirmation emails.
+#: class-gf-mollie.php:2247
+msgid "Product: %s"
+msgid_plural "Products: %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-gf-mollie.php:2276
+msgid "Access denied."
+msgstr ""
+
+#: class-gf-mollie.php:2282
+msgid "Unable to deauthorize because API could not be initialized."
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:42
+msgid "Mollie"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:66
+msgid "Allows accepting credit card information to make payments via Mollie payment gateway."
+msgstr ""
+
+#. translators: 1. The currency name 2. Open strong tag 3. Close strong tag
+#: includes/class-gf-field-mollie.php:134
+msgid "Your Mollie profile doesn't have any payment method that supports %2$s%1$s%3$s."
+msgstr ""
+
+#. translators: 1. Open link tag 2. Close link tag
+#: includes/class-gf-field-mollie.php:140
+msgid "You need to add a payment method that supports the currency in your Mollie Profile or change your %1$sCurrency Setting%2$s."
+msgstr ""
+
+#. translators: 1. Open link tag 2. Close lin tag 3. Open link tag
+#: includes/class-gf-field-mollie.php:151
+msgid "You need to select a %1$sMollie Profile%2$s."
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:159
+msgid "Please check if you have activated a Mollie feed for your form."
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:165
+msgid "Credit Card fields will only be displayed in your form when Credit Card is the selected payment method."
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:170
+msgid "This field wouldn't be displayed in your form because only one supported payment method in your Mollie profile. Your customers will be redirected to the payment gateway after submitting the form."
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:195
+msgid "Card Number"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:196
+#: includes/class-gf-field-mollie.php:416
+msgid "Expiration Date"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:197
+msgid "Security Code"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:198
+msgid "Card Type"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:199
+msgid "Cardholder Name"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:375
+msgid "Supported Credit Cards:"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:554
+msgid "This page is unsecured. Do not enter a real credit card number! Use this field only for testing purposes. "
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:706
+#: includes/class-gf-field-mollie.php:728
+msgid "Default Payment Method"
+msgstr ""
+
+#: includes/class-gf-field-mollie.php:728
+msgid "Set the default payment method. The supported payment methods are in sync with your Mollie account and match the Gravity Forms Currency Setting."
+msgstr ""
+
+#: includes/class-gf-mollie-api.php:100
+msgid "Refresh token must be provided."
+msgstr ""
+
+#. translators: A request sent to Mollie returned an error, no error details available.
+#: includes/class-gf-mollie-api.php:407
+msgid "Your payment can not be processed by Mollie, no error details available."
+msgstr ""
